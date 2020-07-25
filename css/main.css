@@ -1,0 +1,140 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1b262c;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3282b8;
+  text-decoration: underline;
+}
+
+header {
+  width: 100%;
+  height: 700px;
+  background-color: #1d252c;
+  display: flex;
+  align-items: center;
+}
+
+header .header-img {
+  max-width: 1250px;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 5px;
+  display: flex;
+  overflow: hidden;
+  background-color: #43494e;
+}
+
+header .header-img img {
+  margin: 0 auto;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.main-container {
+  position: relative;
+  top: -250px;
+  padding: 30px;
+  width: 60%;
+  background-color: rgba(255, 255, 255, .8);
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+main .main-container h1{
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  font-size: 4em;
+  margin: 5px 0 25px;
+}
+
+main .main-container .container-description p {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+main .main-facts {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  
+}
+
+main .main-facts .main-facts-grid {
+  max-width: 1250px;
+  width: 1250px;
+  display: inherit;
+  position: relative;
+  top: -100px;
+  
+}
+
+main .main-facts .main-facts-grid .main-facts-content {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 25px;
+  margin: 0 auto;
+  width: 43%;
+}
+
+main .main-facts .main-facts-grid .main-facts-content h2{
+  text-align: center;
+}
+
+main .main-picture {
+  display: flex;
+  max-width: 1250px;
+  width: 1250px;
+  height: 700px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+main .main-picture img {
+  object-fit: cover;
+  width: inherit;
+}
+
+.reasons {
+  max-width: 1250px;
+  width: 1250px;
+  margin: 100px auto;
+  background-color: ivory;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.reasons h2 {
+  font-family: 'Sacramento', cursive;
+  font-size: 3em;
+}
+
+.reasons-background table {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.reasons-images {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.reasons-images img{
+  width: 250px;
+  border-radius: 5px;
+  border: 10px solid #43494e;
+}
